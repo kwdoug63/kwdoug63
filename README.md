@@ -25,4 +25,4 @@ I am an innovator focused on building intelligent "AutoPilot" systems that strea
 * **AI Automation Architect:** Python-based systems for generating business-specific automation code.
 * **CRM Solutions:** AI-driven tools for accounting, bookkeeping, and lead management.
 
-📫 **Let's Connect:** [Your LinkedIn URL] | Founder of **Relativity Publications**
+📫 **Let's Connect:** https://www.linkedin.com/in/kwdoug63 | Founder of **Relativity Publications**
