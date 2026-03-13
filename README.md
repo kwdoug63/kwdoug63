@@ -1,7 +1,8 @@
 # Hi, I'm Kenneth Wayne Douglas 👋
 
-### AI Automation Architect | Founder of Relativity & AI AutoPilot
-I am an innovator focused on building intelligent "AutoPilot" systems that streamline complex business workflows. My work bridges the gap between sophisticated system architecture and practical, automated solutions for the freelance and CRM markets.
+Founder & CEO | Sober Agentic Infrastructure, Inc.
+Building the deterministic safety layer for the Agentic Era. M.D. & Lead Author of US Patent 12,037,144 B1.
+🛡️ Ensuring AI remains sober, safe, and production-ready.
 
 ---
 
