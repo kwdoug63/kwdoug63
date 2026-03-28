@@ -22,7 +22,7 @@ My approach to AI safety is not theoretical; it is forged in environments where 
 * **Medical Precision:** Doctor of Medicine (MD), USC Keck School of Medicine. I understand systemic failure and the necessity of "clinical" guardrails in autonomous systems.
 * **Industrial Safety:** Former Safety & Compliance Lead at **Kraft Heinz**. I've managed physical safety protocols for complex, high-velocity machinery where "probabilistic" outcomes aren't enough.
 * **Hardware Innovation:** Lead Author of **US Patent 12,037,144 B1** (*Space Railway*). I build systems that rely on the laws of physics and logic, not probability.
-* **Software Innovation:** Lead Author of **US Patent 12,037,144 B1** (*Deterministic Safety Guardrails and Outcome Verification for Agentic Systems*). I build systems that rely on the laws of math and cryptography, not probabilistic guesswork.
+* **Software Innovation:** Lead Author of **US Provisional Patent 64/006,104 • Filed Mar 15, 2026** (*Deterministic Safety Guardrails and Outcome Verification for Agentic Systems*). I build systems that rely on the laws of math and cryptography, not probabilistic guesswork.
 
 ---
 
