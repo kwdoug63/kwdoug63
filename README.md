@@ -21,16 +21,17 @@ Medicine doesn't deploy systems that are "usually right" — it requires verific
 
 [varek-lang.org](https://varek-lang.org) · [github.com/kwdoug63/varek](https://github.com/kwdoug63/varek) · MIT License
 
-VAREK is an open source programming language designed from the ground up for AI/ML pipeline engineering. It replaces the Python + YAML + JSON Schema + Bash fragmentation that plagues production AI systems with a single typed, compiled language where pipelines are first-class citizens.
+VAREK is an open source programming language designed from the ground up for AI/ML pipeline engineering. It replaces the Python + YAML + JSON Schema + Bash fragmentation that plagues production AI systems with a single typed, compiled language where pipelines are first-class citizens — and verifies what the agents built on those pipelines are allowed to do.
 
-- **Statically typed** — Hindley-Milner inference extended with tensor shape tracking
-- **LLVM-compiled** — 10–40x faster than CPython for compute-heavy pipeline workloads
-- **Pipeline declarations** — type-checked at compile time, not discovered at runtime
-- **Full interop** — `import python::numpy`, `import python::torch` — no rewrites required
-- **v1.0 language baseline** — 659 tests passing · 7-module standard library · 261 functions · package manager
-- **v1.5 Warden runtime** — kernel-level interception via seccomp-unotify · sub-microsecond policy decisions · three-state ALLOW / DENY / UNKNOWN return with symmetric suppression
+* Statically typed — Hindley-Milner inference extended with tensor shape tracking
+* LLVM-compiled — 10–40x faster than CPython for compute-heavy pipeline workloads
+* Pipeline declarations — type-checked at compile time, not discovered at runtime
+* Full interop — `import python::numpy`, `import python::torch` — no rewrites required
+* v1.0 language baseline — 659 tests passing · 7-module standard library · 261 functions · package manager
+* v1.5 Warden runtime — kernel-level interception via seccomp-unotify · sub-microsecond policy decisions · three-state ALLOW / DENY / UNKNOWN return with symmetric suppression
+* v1.6 plan verification — the entire planned action graph is verified before execution begins · an unsafe plan is refused before the agent's first action · composes with the per-action runtime as a second deterministic layer
 
-Compile-time pipeline verification is deterministic AI safety at the language layer.
+Deterministic AI safety in depth: verified at compile time in the language, across the whole plan before execution, and per action at the kernel.
 
 ---
 
